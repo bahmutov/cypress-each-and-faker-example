@@ -1,0 +1,29 @@
+{
+  "name": "cypress-each-and-faker-example",
+  "version": "1.0.0",
+  "description": "Using Faker to generate test data and execute separate tests using cypress-each plugin",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/cypress-each-and-faker-example.git"
+  },
+  "keywords": [
+    "cypress-example"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/cypress-each-and-faker-example/issues"
+  },
+  "homepage": "https://github.com/bahmutov/cypress-each-and-faker-example#readme",
+  "devDependencies": {
+    "cypress": "^9.0.0",
+    "cypress-each": "^1.10.0",
+    "faker": "^5.5.3",
+    "prettier": "^2.4.1"
+  }
+}
